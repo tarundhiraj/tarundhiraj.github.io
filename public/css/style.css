@@ -97,3 +97,28 @@ body {
     height: 86px;
   }
 }
+
+.social-icons {
+  text-align: center;
+  }
+.social-icons li {
+  display:inline-block;
+  float:left;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:5px;
+  height:5px;
+  margin-right: 2px;
+}
+
+.social-icons ul {
+  list-style-type:none;
+  overflow:hidden;
+  white-space:nowrap;
+ }
